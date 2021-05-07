@@ -4,7 +4,7 @@ FROM quay.io/schabrolles/alpine
 #   Http server installation   #
 # ---------------------------- #
 
-RUN	apk add --no-cache apache2
+RUN apk add --no-cache apache2
 
 # ---------------------- #
 #   Adding Web Content   #
