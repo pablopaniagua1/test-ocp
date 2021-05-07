@@ -1,10 +1,10 @@
-FROM alpine
+FROM ubuntu
 
 # ---------------------------- #
 #   Http server installation   #
 # ---------------------------- #
 
-RUN apk add --no-cache apache2
+RUN apt-get install apache2
 
 # ---------------------- #
 #   Adding Web Content   #
